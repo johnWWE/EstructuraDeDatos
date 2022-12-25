@@ -1,0 +1,8 @@
+CUESTIONARIO: ¿Cuáles son las principales ventajas de la programación recursiva en
+Python?
+
+. se reduce la cantidad de las lineas de codigo 
+. Soluciones a problemas complejos de una manera más fácil y elegante
+. Resuelve problemas de difícil solución iterativa
+. Presenta una facilidad para comprobar y verificar que la solución es correcta
+
