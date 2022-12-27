@@ -10,5 +10,6 @@ def potencia(base, exponente):
     elif base==0 and exponente==0:
         return 'Es indeterminado'
     else:
+        # utilizamos la funcion recursiva ya que es un paso iterativo
         return base * potencia(base, exponente-1)
-print(potencia(0,0))
+print(potencia(2,5))
