@@ -19,5 +19,8 @@ print(desordenar(lista))
 evidentemente la respuesta lo podemos determinar ejecutando varias veces el algoritmo, y
 efectivamente salen desordenados las listas introducidas, cuando ejecute tres veces, 
 salian los sgtes, resultados
-
+[5, 3, 7, 6, 1, 8, 2, 9, 4]
+[6, 8, 2, 7, 3, 5, 1, 4, 9]
+[4, 1, 2, 3, 7, 8, 5, 9, 6]; a partir de esto podemos concluir que  es aleatorio el orden
+de los elementos de nuestra lista
 '''
