@@ -7,12 +7,13 @@ esté ordenada.'''
 
 lista = [3,4,2,1,5]
 for i in range(len(lista)): #un for para el tamanio de la lista
-    valorMinimo = i       # 
-    for j in range(i,len(lista)): # iteraremos con 2 iteradores
-        if lista[j]<lista[valorMinimo]:#se compara cada valor del elemneto con el siguiente valor del elemento
-            valorMinimo = j         # el menor de las cantidas queda aalamcenada en la variable
+    valorMinimo = i       # se almacena un valor minimo o el primero
+    for j in range(i,len(lista)):       #recorremos desde el valor buscado hasta la cantidad de elementos de la lista
+        if lista[j]<lista[valorMinimo]:#se compara cada valor del elemneto con el siguiente valor del elemento hasta encontrar el mas pequenio
+            valorMinimo = j         # el menor de las cantidas queda almacenada en la variable y repitimos laa misma operacion
+                                    #con todos los elementos restantes
     auxiliador = lista[i]        
     lista[i] = lista[valorMinimo]    # hacemos un intercambio de valores para que la comparacion siga iterando
     lista[valorMinimo] = auxiliador
-    print(lista)    #imprime todos las iteraciones en una lista, hasta que  quede ordena de menor a mayor
+    print(lista)    #imprime todos las iteraciones en una lista, hasta que  quede ordenada de menor a mayor
 print(f'\n')
